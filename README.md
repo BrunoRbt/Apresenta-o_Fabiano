@@ -1,4 +1,5 @@
-Apresenta-o_Fabiano
+# Apresenta-o_Fabiano
+
 🚀 Chatbot com Google Dialogflow e Google Cloud
 Um chatbot básico utilizando a API Dialogflow do Google Cloud para responder a perguntas em português.
 
@@ -11,13 +12,14 @@ Principais Funcionalidades:
 ✅ Processamento de perguntas em português (pt-BR).
 ✅ Fácil configuração e uso.
 ✅ Código organizado em classes para reutilização.
-🛠️ Pré-requisitos
-Antes de começar, verifique se você tem os seguintes itens instalados:
 
-Python 3.10 ou superior
+🛠️ Pré-requisitos
+Certifique-se de que você tenha os seguintes itens instalados:
+
+Python 3.10+
 Conta na Google Cloud Platform com o serviço Dialogflow configurado.
 Arquivo de credenciais JSON da GCP.
-Instale as dependências:
+Instale as Dependências:
 No terminal, execute:
 
 bash
@@ -25,10 +27,12 @@ Copiar código
 pip install -r requirements.txt
 🚀 Como Usar
 Clone o repositório:
+
 bash
 Copiar código
 git clone https://github.com/BrunoRbt/Apresenta-o_Fabiano
 cd apresenta_o_fabiano
+
 Configure as credenciais: Coloque o arquivo credenciais.json no diretório raiz do projeto.
 
 Edite o arquivo main.py: Configure os parâmetros do seu projeto:
@@ -40,31 +44,35 @@ session_id = "sua-sessao-id"
 texts = ["Qual é o seu nome?", "O que você faz?"]
 language_code = "pt-BR"
 Execute o chatbot:
+
 bash
 Copiar código
 python main.py
+
 🌐 Integração com Interface Web
-Para usar uma interface HTML, siga os seguintes passos:
+Se você deseja usar uma interface HTML, siga estas etapas:
 
 Instale o Flask:
+
 bash
 Copiar código
 pip install flask
-Conecte o arquivo index.html ao Flask no script main.py.
+Use o arquivo index.html e conecte-o ao Flask no script main.py.
 
 Inicie o servidor:
 
 bash
 Copiar código
 python main.py
-Acesse o chatbot no navegador:
-bash
+Acesse no navegador:
+
+arduino
 Copiar código
 http://127.0.0.1:5000
 🛡️ Boas Práticas
-Nunca inclua o arquivo credenciais.json no repositório GitHub! Utilize o arquivo .gitignore para proteger suas credenciais.
+Não inclua o arquivo credenciais.json no repositório GitHub! Use o arquivo .gitignore para proteger suas credenciais.
 Use ambientes virtuais (venv) para isolar dependências.
-Formate seu código com o Black:
+Formate seu código com Black:
 bash
 Copiar código
 pip install black
@@ -72,9 +80,9 @@ black .
 🧩 Tecnologias Utilizadas
 <div align="center"> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white"> <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"> </div>
 🗂️ To-Do
-Melhorar a interface web.
-Adicionar suporte para outras linguagens.
-Implementar autenticação via OAuth 2.0.
+ Melhorar a interface web.
+ Adicionar suporte para outras linguagens.
+ Implementar autenticação via OAuth 2.0.
 🤝 Contribuindo
 Contribuições são bem-vindas! Siga os passos abaixo para contribuir:
 
