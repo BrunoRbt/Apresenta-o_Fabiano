@@ -30,7 +30,7 @@ Clone o repositório:
 
 bash
 Copiar código
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/BrunoRbt/Apresenta-o_Fabiano
 cd apresenta_o_fabiano
 
 Configure as credenciais: Coloque o arquivo credenciais.json no diretório raiz do projeto.
@@ -95,6 +95,6 @@ Abra um Pull Request.
 Este projeto está licenciado sob a MIT License.
 
 💬 Contato
-E-mail: seu-email@example.com
-GitHub: seu-usuario
-LinkedIn: Seu Nome
+E-mail: richard2oliver1@gmail.com
+GitHub: https://github.com/BrunoRbt
+LinkedIn: https://www.linkedin.com/in/bruno-roberto-devr/
